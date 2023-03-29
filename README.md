@@ -34,7 +34,7 @@
 
 ### 🪧 Curriculum
 
-- Day1 : 23.03.05
+- Day1
   - CHAPTER 1 자바스크립트에서 타입스크립트로
   - CHAPTER 2 타입 시스템
 - Day2
