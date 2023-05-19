@@ -52,4 +52,5 @@ const value2_ = value2;
 - Chapter14: 구문 확장
 - [Type-only imports and exports](https://github.com/microsoft/TypeScript/pull/35200)
 - [When transpileOnly is enabled, ts-loader leaves in re-exports of types, causing webpack 4 to warn about export not being found](https://github.com/TypeStrong/ts-loader/issues/751)
+- [[성능 베이스캠프 미션] 병민(윤병인) 미션 제출합니다.](https://github.com/woowacourse/perf-basecamp/pull/39#discussion_r964442656)
 - [예시 코드](https://www.typescriptlang.org/play?#code/PTAEDcEMBsFcFMCMA6ALgZ1ACkJvNgfccB1V0QFXnAdlsB0OiGBAJgBoq54BmBqJgFlEBhlvUQCPHAJ02ADmtCAAGsCoEwEoAUKgCeAB3iMEiACpKVAXlDpUAJwCWAOwDmAbhkBjAPYn9qpAC4nGraF0AiSACNrXlbwAB6KtgaooADebmzUSJrKoAC+VjIgoKYAJiFo6DJGALZhEdGxbokqyaAAZga2haBeyMDsaoEFxeGRCkkxbfD0TjSVKbX1jc2t8TQdRSWRMb0qA6xOzKPVdQ1NLatzXaX98RwMy04cm+M7UwMcHTb2jgM0APqew1YZAKIASr8AeV+rgA5C8QaBrJATCZbJFfCpYOh4FlQJBMJAnKAEVCkSojJEAO7ozKHVAo0BI0xmUAg+bdUDLEHIIA)
