@@ -53,8 +53,6 @@ interface I2 {
   gender: boolean;
 }
 
-type together = keyof I1 & I2;
-
 type newType = {
   [K in keyof I1 & I2]: I1[K];
 };
@@ -66,5 +64,5 @@ type newType = {
 
 - Chapter15: 타입 운영
 - [퀴즈 1](https://www.typescriptlang.org/play?#code/C4TwDgpgBAQgTgSwOYAtgDsIGctQLxQBEAJgIZwDWhUAPkQDbJqEDcAUKJFAMID29vOPiIAjegFcI1OoTgRirNh3DR4TDNiwBBdMT4ChBAAYASAN5rUGnFAgAPYBF24S5KlAD8RAIzUAXEQATIQAvgC05vqCIUbsQA)
-- [퀴즈 2](https://www.typescriptlang.org/play?#code/MYewdgzgLgBKYDMCWBzGBeGBvAUDfMANiMAIZJTgBcMARAK5gDWYIA7mLQDR4FikBbAKY1apVmACeAkPQjde+SUNIAnGgAYeAXwDcOHFEkAHITAAypAF6SAaqUL0hEDNkUwA2gGkYSMDCYhSRAEGCNTELhwZBQAXRofIQAPKCEwABMXBmZWDloYAH46aFU-FHtHIXyaMCEANyFVHD0cIA)
-- [퀴즈 3](https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgJIEZkG8BQz-IjAIDWIcAthAFzIDOYUoA5gNx4FzM2ECuFAI2jsAvjhyhIsRClQAmbB3xFS5KrQZMQbJcm4gAJtFoCA9qYA2EOCFHiwATwAOKMKe5gAFtGQBeZCQQDqYwaJgAZGhy7DiOLoQQAO4AKs4o-rgEyADaANLIoAFBIWHIkfIAurQYeRWiQA)
+- [퀴즈 2](https://www.typescriptlang.org/play?#code/MYewdgzgLgBKYDMCWBzGBeGBvAUDfMANiMAIZJTgBcMARAK5gDWYIA7mLQDR4FikBbAKY1apVmACeAkPQjde+SUNIAnGgAYeAXwDcOHFEkAHITAAypAF6SAaqUL0hEDNkUwA2gGkYSMDCYhSRAEOHBkFABdGh8hAA8oITAAExcGZlYOWhgAfjpoVT8Ue0chbJowIQA3IVUcPQMAekaYQFemwAlRnGaYI1MLazsHJxdMXG6CTx8-AKCQnpMhOfgI6JhYhKTUukYWdk5c-KhCsGKhspgK6tquloagA)
+- [퀴즈 3](https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgJIEZkG8BQz-IjAIDWIcAthAFzIDOYUoA5gNx4FzM2ECuFAI2jsAvjhyhIsRClQAmbB3xFS5KrQZMQbJcm4gAJtFoCA9qYA2EOCFHiwATwAOKEBADuAFWcoAvIoJkAG0AaWRQZBIIB1MYNEwAMjQ5AF1aDFCU0SA)
